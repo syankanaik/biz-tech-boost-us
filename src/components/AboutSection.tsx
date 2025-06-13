@@ -3,10 +3,10 @@ import React from 'react';
 
 const AboutSection = () => {
   const bulletPoints = [
-    "[Bullet point text to be added]",
-    "[Bullet point text to be added]", 
-    "[Bullet point text to be added]",
-    "[Bullet point text to be added]"
+    "I co-founded 3 mission-oriented businesses (mattress recycling, cafe and furniture design) and raised millions of dollars from prominent funders",
+    "I've led digital transformations of large governments and enterprises, upgrading data pipelines and backend systems for easy to implement integrations for the future", 
+    "As a strategy consultant, I've worked with dozens of companies to improve their tech and sales strategies to win more clients and cut costs leveraging new and emerging technologies",
+    "I've built several AI agents to improve personal and business productivity for friends and family"
   ];
 
   return (
@@ -48,7 +48,7 @@ const AboutSection = () => {
               </ul>
               
               <div className="space-y-4">
-                <p>[First paragraph text to be added]</p>
+                <p>Outside of tech transformation, I love to travel and participate in endurance events. Since 2015, I've traveled to 35+ countries, speak 3 languages and participated in marathons and short-distance triathlons and an IRONMAN (world's longest-distance triathlon)</p>
                 <p>[Second paragraph text to be added]</p>
               </div>
             </div>

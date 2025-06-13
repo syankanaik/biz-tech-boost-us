@@ -9,7 +9,7 @@ const HeroSection = () => {
           Become a Tech-Forward Company
         </h1>
         <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-          I assist busy entrepreneurs upgrade their data and tech systems to increase productivity, 
+          I assist busy entrepreneurs and small businesses upgrade their data and tech systems to increase productivity, 
           cut costs and drive innovation to ultimately accelerate growth
         </p>
       </div>
