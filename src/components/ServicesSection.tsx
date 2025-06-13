@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const ServicesSection = () => {
@@ -8,7 +7,7 @@ const ServicesSection = () => {
       description: "Need a GTM-ready backend without hiring a full tech team? I specialize in setting up lean, interoperable stacks — from CRMs and analytics to partner integrations and AI workflows."
     },
     {
-      title: "Data Management & Automation",
+      title: "Data Management & Automation", 
       description: "Your data should work for you. I architect and implement data pipelines, dashboards, and feedback systems that drive decisions — not chaos."
     },
     {
@@ -22,7 +21,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-20">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20" style={{backgroundColor: 'rgb(188, 206, 251)'}}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-8">
