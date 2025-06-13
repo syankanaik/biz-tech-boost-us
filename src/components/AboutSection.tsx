@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const AboutSection = () => {
@@ -8,14 +7,17 @@ const AboutSection = () => {
     "As a strategy consultant, I've worked with dozens of companies to improve their tech and sales strategies to win more clients and cut costs leveraging new and emerging technologies",
     "I've built several AI agents to improve personal and business productivity for friends and family"
   ];
-
   return (
     <section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
       <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[600px]">
-          <div className="order-2 lg:order-1">
-            <div className="bg-gray-200 rounded-lg aspect-square flex items-center justify-center h-full">
-              <span className="text-gray-500 text-lg">Your Photo Here</span>
+        <div className="grid lg:[grid-template-columns:1fr_1.5fr] gap-8 items-stretch min-h-[600px]">
+          <div className="order-2 lg:order-1 h-full flex items-center justify-center">
+            <div className="bg-gray-200 rounded-lg aspect-[5/6] w-full max-w-md h-full border-4 border-gray-300 shadow-lg overflow-hidden flex items-center justify-center">
+              <img 
+                src="/headshot.jpg" 
+                alt="Headshot" 
+                className="object-cover object-[60%] w-full h-full"
+              />
             </div>
           </div>
           
@@ -26,8 +28,8 @@ const AboutSection = () => {
               </span>
             </div>
             
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-16">
-              Founder, operator and strategist with background in economics and finance
+            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-16">
+              Founder, operator, strategist<br />and consultant
             </h2>
             
             <div className="text-lg text-gray-700 space-y-6">
