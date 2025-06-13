@@ -12,24 +12,24 @@ const AboutSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
       <div className="max-w-6xl mx-auto">
-        <div className="mb-8">
-          <span className="inline-block bg-pink-200 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">
-            About Me
-          </span>
-        </div>
-        
-        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-16">
-          Founder, operator and strategist with background in economics and finance
-        </h2>
-        
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[600px]">
           <div className="order-2 lg:order-1">
-            <div className="bg-gray-200 rounded-lg aspect-square flex items-center justify-center">
+            <div className="bg-gray-200 rounded-lg aspect-square flex items-center justify-center h-full">
               <span className="text-gray-500 text-lg">Your Photo Here</span>
             </div>
           </div>
           
           <div className="order-1 lg:order-2">
+            <div className="mb-8">
+              <span className="inline-block bg-pink-200 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">
+                About Me
+              </span>
+            </div>
+            
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-16">
+              Founder, operator and strategist with background in economics and finance
+            </h2>
+            
             <div className="text-lg text-gray-700 space-y-6">
               <p className="font-semibold">
                 Hello! My name is Sujith
