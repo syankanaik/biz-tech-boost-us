@@ -49,7 +49,6 @@ const AboutSection = () => {
               
               <div className="space-y-4">
                 <p>Outside of tech transformation, I love to travel and participate in endurance events. Since 2015, I've traveled to 35+ countries, speak 3 languages and participated in marathons and short-distance triathlons and an IRONMAN (world's longest-distance triathlon)</p>
-                <p>[Second paragraph text to be added]</p>
               </div>
             </div>
           </div>
