@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const ServicesSection = () => {
@@ -21,7 +22,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20" style={{backgroundColor: 'rgb(188, 206, 251)'}}>
+    <section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-8">
@@ -36,7 +37,7 @@ const ServicesSection = () => {
         
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <div key={index} className="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-bold text-gray-900 mb-4">{service.title}</h3>
               <p className="text-gray-600 leading-relaxed">{service.description}</p>
             </div>

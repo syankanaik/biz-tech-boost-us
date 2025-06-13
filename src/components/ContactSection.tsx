@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20" style={{backgroundColor: 'rgb(220, 230, 253)'}}>
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-8">
           Ready to harness the power of technology and data at a fraction of the cost?

@@ -10,7 +10,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20" style={{backgroundColor: 'rgb(188, 206, 251)'}}>
+    <section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <span className="inline-block bg-pink-200 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">

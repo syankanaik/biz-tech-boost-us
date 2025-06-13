@@ -21,7 +21,7 @@ const ProcessSection = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20" style={{backgroundColor: 'rgb(220, 230, 253)'}}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
@@ -31,7 +31,7 @@ const ProcessSection = () => {
         
         <div className="space-y-8">
           {steps.map((step, index) => (
-            <div key={index} className="bg-gray-50 p-8 rounded-lg flex items-start space-x-6">
+            <div key={index} className="bg-white p-8 rounded-lg flex items-start space-x-6">
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">
                   {step.number}
