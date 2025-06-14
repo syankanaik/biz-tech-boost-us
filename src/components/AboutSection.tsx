@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const AboutSection = () => {
@@ -14,9 +15,9 @@ const AboutSection = () => {
           <div className="order-2 lg:order-1 h-full flex items-center justify-center">
             <div className="bg-gray-200 rounded-lg aspect-[5/6] w-full max-w-md h-full border-4 border-gray-300 shadow-lg overflow-hidden flex items-center justify-center">
               <img 
-                src="/headshot.jpg" 
-                alt="Headshot" 
-                className="object-cover object-[60%] w-full h-full"
+                src="/lovable-uploads/872a64ff-2fcc-4a75-b4de-b2fbba664654.png" 
+                alt="Sujith's Professional Headshot" 
+                className="object-cover object-center w-full h-full"
               />
             </div>
           </div>
@@ -29,7 +30,7 @@ const AboutSection = () => {
             </div>
             
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-16">
-              Founder, operator, strategist<br />and consultant
+              Founder, operator,<br />strategist and consultant
             </h2>
             
             <div className="text-lg text-gray-700 space-y-6">
