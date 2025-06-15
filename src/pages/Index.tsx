@@ -3,10 +3,11 @@ import React from 'react';
 import Header from '../components/Header';
 import ConversionHero from '../components/ConversionHero';
 import ServicesModules from '../components/ServicesModules';
-import UseCaseCarousel from '../components/UseCaseCarousel';
+import ServicesSection from '../components/ServicesSection';
+import AboutSection from '../components/AboutSection';
 import TrustProofSection from '../components/TrustProofSection';
 import ConversionCTA from '../components/ConversionCTA';
-import ConversionFooter from '../components/ConversionFooter';
+import Footer from '../components/Footer';
 
 const Index = () => {
   return (
@@ -14,10 +15,11 @@ const Index = () => {
       <Header />
       <ConversionHero />
       <ServicesModules />
-      <UseCaseCarousel />
+      <ServicesSection />
+      <AboutSection />
       <TrustProofSection />
       <ConversionCTA />
-      <ConversionFooter />
+      <Footer />
     </div>
   );
 };

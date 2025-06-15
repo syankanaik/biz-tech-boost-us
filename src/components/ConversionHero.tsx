@@ -10,33 +10,21 @@ const ConversionHero = () => {
           {/* Left Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Run Like a <span className="text-blue-600">$10M Company</span> — Without a Full Tech Team
+              Become a <span className="text-blue-600">Tech-Forward Company</span>
             </h1>
             
             <p className="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-              We turn your messy ops into streamlined, automated systems so you can save time, cut costs, and scale with confidence.
+              I assist busy entrepreneurs and small businesses upgrade their data and tech systems to increase productivity, cut costs and drive innovation to ultimately accelerate growth.
             </p>
             
             <div className="mb-8">
               <a 
-                href="#audit" 
-                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 mb-3"
+                href="#contact" 
+                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
-                Claim Your Free Tech Stack Audit
+                Schedule a Free Consultation
                 <ArrowRight className="inline ml-2" size={20} />
               </a>
-              <p className="text-sm text-red-600 font-medium">⚡ Limited to 5 free audits/week</p>
-            </div>
-
-            {/* Trust Bar */}
-            <div className="border-t border-gray-300 pt-6">
-              <p className="text-sm text-gray-500 mb-4">Trusted by AI labs, gov teams, logistics founders, and bootstrapped operators</p>
-              <div className="flex flex-wrap justify-center lg:justify-start items-center gap-6 opacity-60">
-                <div className="text-xs font-semibold text-gray-600 bg-white px-3 py-1 rounded">AI LABS</div>
-                <div className="text-xs font-semibold text-gray-600 bg-white px-3 py-1 rounded">GOV TEAMS</div>
-                <div className="text-xs font-semibold text-gray-600 bg-white px-3 py-1 rounded">LOGISTICS</div>
-                <div className="text-xs font-semibold text-gray-600 bg-white px-3 py-1 rounded">BOOTSTRAPPED</div>
-              </div>
             </div>
           </div>
 

@@ -1,32 +1,28 @@
 
 import React from 'react';
-import { Zap, Bot, Users, Headphones, ArrowRight } from 'lucide-react';
+import { Zap, Bot, Users, Headphones } from 'lucide-react';
 
 const ServicesModules = () => {
   const modules = [
     {
       icon: Zap,
       title: "Fractional Tech Integration",
-      subtitle: "Your tech co-founder on demand. We set up Airtable, Zapier, Notion, Stripe and more — without the overhead.",
-      cta: "See Example"
+      subtitle: "Your tech co-founder on demand. We set up Airtable, Zapier, Notion, Stripe and more — without the overhead."
     },
     {
       icon: Bot,
       title: "AI-Powered Ops Automation",
-      subtitle: "Automate your reporting, hiring, and marketing — reclaim 10+ hours/week.",
-      cta: "View Demo"
+      subtitle: "Automate your reporting, hiring, and marketing — reclaim 10+ hours/week."
     },
     {
       icon: Users,
       title: "Team Enablement & Training",
-      subtitle: "We train your team to run and scale systems without breaking anything.",
-      cta: "Learn More"
+      subtitle: "We train your team to run and scale systems without breaking anything."
     },
     {
       icon: Headphones,
       title: "Ongoing Lean Support",
-      subtitle: "Async Loom updates, Slack access, and monthly reviews — like having a full-time team at a fraction of the cost.",
-      cta: "See Pricing"
+      subtitle: "Async Loom updates, Slack access, and monthly reviews — like having a full-time team at a fraction of the cost."
     }
   ];
 
@@ -50,12 +46,7 @@ const ServicesModules = () => {
               </div>
               
               <h3 className="text-xl font-bold text-gray-900 mb-4">{module.title}</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">{module.subtitle}</p>
-              
-              <button className="text-blue-600 font-semibold hover:text-blue-700 transition-colors flex items-center group">
-                {module.cta}
-                <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-              </button>
+              <p className="text-gray-600 leading-relaxed">{module.subtitle}</p>
             </div>
           ))}
         </div>
