@@ -2,44 +2,45 @@
 import React from 'react';
 
 const ServicesSection = () => {
-  const services = [
+  const steps = [
     {
-      title: "Fractional Tech Integration",
-      description: "Need a GTM-ready backend without hiring a full tech team? I specialize in setting up lean, interoperable stacks — from CRMs and analytics to partner integrations and AI workflows."
+      number: 1,
+      title: "Diagnose",
+      description: "I partner with your team to audit your company's current data systems, technology infrastructure and stack as well as processes. Together, defining success and building an engagement roadmap"
     },
     {
-      title: "Data Management & Automation", 
-      description: "Your data should work for you. I architect and implement data pipelines, dashboards, and feedback systems that drive decisions — not chaos."
+      number: 2,
+      title: "Implement",
+      description: "Post roadmap, I design and implement initiatives design to scale your data management processes and tech solutions via rapid prototyping and refinement"
     },
     {
-      title: "Strategic Enablement for Ops + Growth",
-      description: "From pilot to scale, I serve as an embedded operator helping teams make sense of tools and bridge technical execution with business impact."
-    },
-    {
-      title: "Professional Services",
-      description: "Providing ongoing support to automate reporting, extract key insights from large sets of client documentation and create searchable reference guides"
+      number: 3,
+      title: "Maintenance",
+      description: "I provide ongoing support to provide hands-on training to make sure that your team is completely committed to the new workflows and tools"
     }
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20" style={{backgroundColor: 'rgb(220, 230, 253)'}}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-8">
-            Leverage the power of Tech and Data
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
+            Delivering Enterprise-level tech solutions without the enterprise-level costs
           </h2>
-          <p className="text-lg lg:text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-            Lots of tools and data with very little time can feel overwhelming. I partner with companies 
-            to identify technology and data gaps, implement most impactful solutions and drive adoption 
-            across the organization
-          </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-8">
-          {services.map((service, index) => (
-            <div key={index} className="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{service.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{service.description}</p>
+        <div className="space-y-8">
+          {steps.map((step, index) => (
+            <div key={index} className="bg-white p-8 rounded-lg flex items-start space-x-6">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">
+                  {step.number}
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{step.title}</h3>
+                <p className="text-lg text-gray-600 leading-relaxed">{step.description}</p>
+              </div>
             </div>
           ))}
         </div>

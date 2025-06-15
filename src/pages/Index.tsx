@@ -5,8 +5,7 @@ import ConversionHero from '../components/ConversionHero';
 import ServicesModules from '../components/ServicesModules';
 import ServicesSection from '../components/ServicesSection';
 import AboutSection from '../components/AboutSection';
-import TrustProofSection from '../components/TrustProofSection';
-import ConversionCTA from '../components/ConversionCTA';
+import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -17,8 +16,7 @@ const Index = () => {
       <ServicesModules />
       <ServicesSection />
       <AboutSection />
-      <TrustProofSection />
-      <ConversionCTA />
+      <ContactSection />
       <Footer />
     </div>
   );
