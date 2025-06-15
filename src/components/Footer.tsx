@@ -15,13 +15,13 @@ const Footer = () => {
               streamline their operations and scale without the overhead of a full tech team.
             </p>
             <div className="flex space-x-4">
-              <a href="https://twitter.com/sujith" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://twitter.com/sujithyankanaik" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter size={24} />
               </a>
-              <a href="https://linkedin.com/in/sujith" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/sujithyankanaik/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:hello@sujith.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:syankanaik01@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={24} />
               </a>
             </div>
